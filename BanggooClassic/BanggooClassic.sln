@@ -9,13 +9,32 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banggoo.OSGi", "SolutionIte
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Presentation", "01-Presentation", "{77CC235C-EFC3-4582-8F58-87E9B3E9D40C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{54FDB770-647B-428B-8799-2E38603E2D27}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Domain", "03-Domain", "{54FDB770-647B-428B-8799-2E38603E2D27}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E9A559A7-15F6-4821-BE39-F44EF385B910}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Infrastructure", "04-Infrastructure", "{E9A559A7-15F6-4821-BE39-F44EF385B910}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banggoo.Common", "SolutionItems\Banggoo.Infrastructure\Banggoo.Common\Banggoo.Common.csproj", "{49739BAC-9919-43C1-BAFB-57D82C191D38}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banggoo.WebShell", "SolutionItems\Banggoo.Presentation\Banggoo.WebShell\Banggoo.WebShell.csproj", "{6DC341DF-C065-42DA-B842-2E35B75774AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Reference", "05-Reference", "{B415981D-E5B4-40A4-B59A-0F2AB2A3E538}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Applications", "02-Applications", "{09300113-0128-49D4-BE4A-87C1A2A2B505}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "log4net", "log4net", "{E8849B3E-7E87-4724-A597-CB9029BF3A6C}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionItems\Banggoo.Reference\log4net\log4net.dll = SolutionItems\Banggoo.Reference\log4net\log4net.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mono", "Mono", "{C1435D51-B64E-4478-A6A0-4AC4ED67B205}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionItems\Banggoo.Reference\Mono\Mono.Cecil.dll = SolutionItems\Banggoo.Reference\Mono\Mono.Cecil.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharpZipLib", "SharpZipLib", "{9ED2B130-DC91-41F8-B151-FF1290DBD6CE}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionItems\Banggoo.Reference\SharpZipLib\ICSharpCode.SharpZipLib.dll = SolutionItems\Banggoo.Reference\SharpZipLib\ICSharpCode.SharpZipLib.dll
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +65,11 @@ Global
 		{E9A559A7-15F6-4821-BE39-F44EF385B910} = {40B668C1-B0E9-46ED-9369-021B5DCB22F8}
 		{49739BAC-9919-43C1-BAFB-57D82C191D38} = {E9A559A7-15F6-4821-BE39-F44EF385B910}
 		{6DC341DF-C065-42DA-B842-2E35B75774AC} = {77CC235C-EFC3-4582-8F58-87E9B3E9D40C}
+		{B415981D-E5B4-40A4-B59A-0F2AB2A3E538} = {40B668C1-B0E9-46ED-9369-021B5DCB22F8}
+		{09300113-0128-49D4-BE4A-87C1A2A2B505} = {40B668C1-B0E9-46ED-9369-021B5DCB22F8}
+		{E8849B3E-7E87-4724-A597-CB9029BF3A6C} = {B415981D-E5B4-40A4-B59A-0F2AB2A3E538}
+		{C1435D51-B64E-4478-A6A0-4AC4ED67B205} = {B415981D-E5B4-40A4-B59A-0F2AB2A3E538}
+		{9ED2B130-DC91-41F8-B151-FF1290DBD6CE} = {B415981D-E5B4-40A4-B59A-0F2AB2A3E538}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1057DA99-71D3-49D2-B9B7-445E570D18A8}
